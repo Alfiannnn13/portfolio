@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alfian Portfolio</title>
+    <!-- iconScout -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav>
+      <div class="container nav__container">
+        <h3>Alfian</h3>
+        <ul class="nav__menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__buttons">
+          <button class="nav__theme-btn"><i class="uil uil-moon"></i></button>
+          <button class="nav__toggle-open"><i class="uil uil-bars"></i></button>
+          <button class="nav__toggle-close">
+            <i class="uil uil-multiply"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav  -->
+
+    <!-- start header -->
+    <header>
+      <div class="container header__container">
+        <article class="header__image"  data-aos="fade-up">
+          <div><img src="./assets/header.jpg" alt="header img" /></div>
+        </article>
+        <article class="header__content"  data-aos="fade-up">
+          <h4>Hi, I'm <span>Muhammad Alfian Novanto</span>. And I'll</h4>
+          <h1>Junior <br />Programmer</h1>
+          <p>Sedikit Ngoding. Banyak Ngopinya</p>
+          <div class="header__cta">
+            <a href="#contact" class="btn primary">Hire me</a>
+            <a href="#projects" class="btn">Portofolio</a>
+          </div>
+        </article>
+        <ul class="header__socials"  data-aos="fade-left">
+          <li>
+            <a href="https://www.instagram.com/fiannn.13" target="_blank">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/fiannn.13" target="_blank">
+              <i class="uil uil-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UC2MtCtFCGLaijrLefEtvQaw"
+              target="_blank"
+            >
+              <i class="uil uil-youtube"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UC2MtCtFCGLaijrLefEtvQaw"
+              target="_blank"
+            >
+              <i class="uil uil-youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start About -->
+    <section class="about" id="About" >
+      <div class="container about__container" >
+        <div class="about__image" data-aos="fade-up">
+          <img src="./assets/about.jpg" alt="About" />
+        </div>
+        <div class="about__details">
+          <h1  data-aos="fade-right">About me</h1>
+          <div class="about__cards">
+            <article class="about__card" data-aos="zoom-in-down">
+              <i class="uil uil-award-alt"></i>
+              <h4>Freshgraduate</h4>
+              <small>UPB 2023</small>
+            </article>
+            <article class="about__card" data-aos="zoom-in-down">
+              <i class="uil uil-laptop"></i>
+              <h4>Projects</h4>
+              <small>5+ completed</small>
+            </article>
+            <article class="about__card" data-aos="zoom-in-down">
+              <i class="uil uil-users-alt"></i>
+              <h4>Clients</h4>
+              <small>10+</small>
+            </article>
+          </div>
+          <p>
+            Building projects that my clients love has always been my passion. I
+            am always motivated to do more and be better.
+          </p>
+          <p>
+            Hi, my name is Muhammad Alfian Novanto from Bekasi, Indonesia. i'm a
+            junior web developer with a Bachelor of informatics Engineering
+            Universitas Pelita Bangsa 2023. I have an interest in a career as
+            software Engineer. Get in touch today the details of your project
+            let's get started! Check out my cv below.
+          </p>
+          <a
+            href="./assets/resume.pdf"
+            class="btn primary"
+            download
+            target="_blank"
+          >
+            <i class="uil uil-file-download-alt"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end About -->
+
+    <!-- start certificate -->
+    <section class="swiper" id="certificate" data-aos="zoom-in-up">
+      <h1>Certificate</h1>
+      <p>Below is the training certificate I received.</p>
+      <div class="swiper-wrapper">
+        <figure class="swiper-slide">
+          <div class="img__sertif">
+            <img
+              src="./assets/sertifikat1.jpg"
+              alt="sertifikat1"
+              class="sertifikat1__items"
+            />
+          </div>
+          <div class="swiper__lembaga">
+            <div class="swiper__lembaga-avatar">
+              <img src="./assets/dicoding.png" alt="" />
+            </div>
+            <div class="swiper__lembaga-details">
+              <h5>Dicoding</h5>
+              <small>Dasar Pemograman Web</small>
+            </div>
+          </div>
+        </figure>
+
+        <!-- sertif 2 -->
+        <figure class="swiper-slide">
+          <div class="img__sertif">
+            <img src="./assets/sertifikat2.jpg" alt="" class="sertifikat2__items"/>
+          </div>
+          <div class="swiper__lembaga">
+            <div class="swiper__lembaga-avatar">
+              <img src="./assets/dicoding.png" alt="" />
+            </div>
+            <div class="swiper__lembaga-details">
+              <h5>Dicoding</h5>
+              <small> Dasar Pemograman JavaScript</small>
+            </div>
+          </div>
+        </figure>
+
+        <!-- sertifikat3 -->
+        <figure class="swiper-slide">
+          <div class="img__sertif">
+            <img src="./assets/sertifikat3.jpg" alt="" class="sertifikat3__items" />
+          </div>
+          <div class="swiper__lembaga">
+            <div class="swiper__lembaga-avatar">
+              <img src="./assets/dicoding.png" alt="" />
+            </div>
+            <div class="swiper__lembaga-details">
+              <h5>Dicoding</h5>
+              <small>Pembuatan Aplikasi Menggunakan JavaScript & Node.Js</small>
+            </div>
+          </div>
+        </figure>
+        <figure class="swiper-slide">
+          <div class="img__sertif">
+            <img src="./assets/sertifikat1.jpg" alt="" />
+          </div>
+          <div class="swiper__lembaga">
+            <div class="swiper__lembaga-avatar">
+              <img src="./assets/dicoding.png" alt="" />
+            </div>
+            <div class="swiper__lembaga-details">
+              <h5>Dicoding</h5>
+              <small>Membuat Website Pemula</small>
+            </div>
+          </div>
+        </figure>
+        <figure class="swiper-slide">
+          <div class="img__sertif">
+            <img src="./assets/sertifikat1.jpg" alt="" />
+          </div>
+          <div class="swiper__lembaga">
+            <div class="swiper__lembaga-avatar">
+              <img src="./assets/dicoding.png" alt="" />
+            </div>
+            <div class="swiper__lembaga-details">
+              <h5>Dicoding</h5>
+              <small>Membuat Website Pemula</small>
+            </div>
+          </div>
+        </figure>
+        <figure class="swiper-slide">
+          <div class="img__sertif">
+            <img src="./assets/sertifikat1.jpg" alt="" />
+          </div>
+          <div class="swiper__lembaga">
+            <div class="swiper__lembaga-avatar">
+              <img src="./assets/dicoding.png" alt="" />
+            </div>
+            <div class="swiper__lembaga-details">
+              <h5>Dicoding</h5>
+              <small>Membuat Website Pemula</small>
+            </div>
+          </div>
+        </figure>
+        <figure class="swiper-slide">
+          <div class="img__sertif">
+            <img src="./assets/sertifikat1.jpg" alt="" />
+          </div>
+          <div class="swiper__lembaga">
+            <div class="swiper__lembaga-avatar">
+              <img src="./assets/dicoding.png" alt="" />
+            </div>
+            <div class="swiper__lembaga-details">
+              <h5>Dicoding</h5>
+              <small>Membuat Website Pemula</small>
+            </div>
+          </div>
+        </figure>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- end certificate -->
+
+    <!-- start project -->
+    <section class="projects" id="projects" >
+      <h1 data-aos="zoom-out">Recent Project</h1>
+      <p data-aos="zoom-out">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, unde!
+      </p>
+      <ul class="projects__categories" data-aos="zoom-out">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".frontend">Frontend Web</li>
+        <li data-filter=".fullstack">Fullstack Web</li>
+        <li data-filter=".InternetofThings">Internet of Things</li>
+        <li data-filter=".android">Android</li>
+      </ul>
+
+      <div class="container projects__container" data-aos="zoom-out-up">
+        <!-- project1 -->
+        <article class="project mix fullstack" data-order="1">
+          <div class="project__image">
+            <img src="./assets/project1.jpg" alt="" />
+          </div>
+          <h3>Shanshop Point of Sale (Fullstack)</h3>
+          <p>
+            Point of Sale is a website-based application built using the
+            Bootstarp framework for the frontend and Laravel for the backend.
+            There are several features such as goods recording, cashier, monthly
+            reports
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://hbdenyak.infinityfreeapp.com/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <a href="http://github.com" class="btn sm" target="_blank"
+              >Github</a
+            >
+          </div>
+        </article>
+
+        <!-- project3 -->
+        <article class="project mix android" data-order="3">
+          <div class="project__image">
+            <img src="./assets/project3.jpg" alt="" />
+          </div>
+          <h3>Smart Pet Feeder App (Android)</h3>
+          <p>
+            This application was created using Android Studio which is connected
+            to a real time database, which is used to control and monitor the
+            Smart Pet Feeder.
+          </p>
+          <div class="project__cta">
+            <a
+              href="http://shanshop-app.42web.io/"
+              class="btn sm primary"
+              target="_blank"
+              >Selengkapnya</a
+            >
+          </div>
+        </article>
+        <!-- project2 -->
+        <article class="project mix InternetofThings" data-order="2">
+          <div class="project__image">
+            <img src="./assets/project2.jpg" alt="" />
+          </div>
+          <h3>Smart Pet Feeder (IoT)</h3>
+          <p>
+            This smart pet feeder is made using the Wemos D1 R2 microcontroller
+            and other supporting sensors. The system that I have created is
+            connected to a real-time database to control and monitor tools
+            remotely.
+          </p>
+          <div class="project__cta">
+            <a
+              href="http://shanshop-app.42web.io/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+
+            <a href="#" class="btn sm" id="openPopup"> Details</a>
+          </div>
+        </article>
+
+        <!-- project4 -->
+        <article class="project mix InternetofThings" data-order="4">
+          <div class="project__image">
+            <img src="./assets/project4.jpg" alt="" />
+          </div>
+          <h3>Smart Home (IoT)</h3>
+          <p>
+            Point of Sale is a website-based application built using the
+            Bootstarp framework for the frontend and Laravel for the backend.
+            The project includes an inventory management module that records
+            incoming and outgoing item details, allowing users to easily track
+            stock. Apart from that, this application is also equipped with a
+            cashier system which allows for an efficient payment process.
+          </p>
+          <div class="project__cta">
+            <a
+              href="http://shanshop-app.42web.io/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+          </div>
+        </article>
+
+        <!-- project5 -->
+        <article class="project mix android" data-order="5">
+          <div class="project__image">
+            <img src="./assets/project5.jpg" alt="" />
+          </div>
+          <h3>Smart Home App (Android)</h3>
+          <p>
+            Point of Sale is a website-based application built using the
+            Bootstarp framework for the frontend and Laravel for the backend.
+            The project includes an inventory management module that records
+            incoming and outgoing item details, allowing users to easily track
+            stock. Apart from that, this application is also equipped with a
+            cashier system which allows for an efficient payment process.
+          </p>
+          <div class="project__cta">
+            <a
+              href="http://shanshop-app.42web.io/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+          </div>
+        </article>
+
+        <!-- project6 -->
+        <article class="project mix frontend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project5.jpg" alt="" />
+          </div>
+          <h3>Portofolio (Frontend)</h3>
+          <p>
+            Point of Sale is a website-based application built using the
+            Bootstarp framework for the frontend and Laravel for the backend.
+            The project includes an inventory management module that records
+            incoming and outgoing item details, allowing users to easily track
+            stock. Apart from that, this application is also equipped with a
+            cashier system which allows for an efficient payment process.
+          </p>
+          <div class="project__cta">
+            <a
+              href="http://shanshop-app.42web.io/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <a href="http://github.com" class="btn sm" target="_blank"
+              >Github</a
+            >
+          </div>
+        </article>
+      </div>
+
+      <!-- popuup -->
+      <div class="popup" id="smartpetfeeder">
+        <span class="close" id="closePopup">&times;</span>
+        <h3>Smart Pet Feeder <br /></h3>
+        <div class="slides">
+          <img src="./assets/project2.jpg" alt="Slide 1"  class="slider-image"/>
+          <img src="./assets/project3.jpg" alt="Slide 2"  class="slider-image"/>
+          <img src="./assets/project4.jpg" alt="Slide 3"  class="slider-image"/>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, porro
+          minima unde provident sunt maiores quia, labore, cumque id voluptatum
+          perferendis enim eum autem perspiciatis nesciunt? Modi ipsa saepe
+          molestias autem quod quia, pariatur harum aspernatur veritatis ad
+          officiis inventore nesciunt non labore possimus, dolor officia
+          explicabo maxime architecto commodi!
+        </p>
+        <span class="arrow" id="prevSlide">&#10094;</span>
+        <span class="arrow" id="nextSlide">&#10095;</span>
+      </div>
+    </section>
+    <!-- end popup -->
+    <!-- end project -->
+
+    <!-- start contact -->
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <ul class="contact__list" data-aos="zoom-out-right">
+          <li>
+            <a
+              href="mailto:muhammadalfiannovanto17@gmail.com"
+              class="contact__list-item"
+              target="_blank"
+            >
+              <i class="uil uil-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.messenger.com/t/alfian"
+              class="contact__list-item"
+              target="_blank"
+            >
+              <i class="uil uil-facebook-messenger"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://wa.me/+6281213528024"
+              class="contact__list-item"
+              target="_blank"
+            >
+              <i class="uil uil-whatsapp"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="tel:+6281213528024"
+              class="contact__list-item"
+              target="_blank"
+            >
+              <i class="uil uil-phone"></i>
+            </a>
+          </li>
+        </ul>
+
+        <form
+          action="https://formsubmit.co/2d2b22a8b553f39212ff9801ea66e5de"
+          method="POST"
+          class="contact__form" data-aos="fade-left">
+          <input type="text" name="Name" placeholder="Full Name" />
+          <input type="email" name="Email" placeholder="Email"/>
+          <textarea rows="7" name="Message" placeholder="Message"></textarea>
+          <button type="submit" class="btn primary">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- end contact -->
+
+
+    <!-- start footer -->
+    <footer>
+      <div class="container footer__container">
+        <ul class="footer__menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <small>2023 Alfian &copy; All Rights Reserved.</small>
+      </div>
+    </footer>
+
+    <!-- end footer-->
+
+    <!--strat Overlay -->
+    <div class="overlay" id="overlay">
+      <div class="overlay__content">
+        <img src="" alt="Enlarged Image" id="enlarged-image" />
+        <span class="close-button" id="close-button">&times;</span>
+      </div>
+    </div>
+    <!-- end overlay -->
+    <!-- js -->
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
