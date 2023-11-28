@@ -220,7 +220,7 @@ const swiper = new Swiper(".swiper", {
 //   sertifikat1
 document
   .querySelectorAll(
-    ".sertifikat1__items, .sertifikat2__items, .sertifikat3__items, .sertifikat4__items, .sertifikat5__items"
+    ".sertifikat1__items, .sertifikat2__items, .sertifikat3__items,.sertifikat5__items, .sertifikat4__items"
   )
   .forEach(function (image) {
     image.addEventListener("click", function () {
