@@ -614,6 +614,12 @@ li.mixitup-control-active {
   transition: transform 0.3s;
   cursor: zoom-in;
 }
+.sertifikat6__items {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+  cursor: zoom-in;
+}
 
 /* zoom */
 .overlay {
