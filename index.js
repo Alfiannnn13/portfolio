@@ -218,8 +218,7 @@ const swiper = new Swiper(".swiper", {
 });
 
 //   sertifikat1
-document
-  .querySelectorAll(
+document.querySelectorAll(
     ".sertifikat1__items, .sertifikat2__items, .sertifikat3__items, .sertifikat4__items, .sertifikat5__items, .sertifikat6__items"
   )
   .forEach(function (image) {
